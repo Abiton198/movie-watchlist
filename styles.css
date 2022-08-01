@@ -1,0 +1,75 @@
+body, html {
+    margin: 50px;
+    padding: 0;
+}
+/* search form */
+.container{
+  border: solid rgb(15, 15, 15) 1px; 
+    width: 550px;
+    height: 780px;
+    background-color: rgb(196, 204, 196);
+}
+
+.header {
+display: flex;
+padding: 30px;
+}
+
+h2 a , h2{    
+    color: white;
+}
+
+h2 a {
+    margin-left: 200px;
+}
+.search-button{
+   
+    background-image: url(/Landing-Page/movie-watchlist/img/movies.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Style the submit button */
+#search-btn {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+#search-btn:hover{
+    background-color: red;
+}
+
+/* Style the search field */
+#search-input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+/* Clear floats */
+  form.form::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  form {
+    display: flex;
+  }
+
+  /* label */
+  .hide {
+    display: none;
+  }
+  
+/* watchlist */
